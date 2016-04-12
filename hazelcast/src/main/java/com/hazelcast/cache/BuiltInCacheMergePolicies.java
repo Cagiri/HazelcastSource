@@ -39,7 +39,7 @@ public enum BuiltInCacheMergePolicies {
      */
     PASS_THROUGH(PassThroughCacheMergePolicy.class, new CacheMergePolicyInstanceFactory() {
         @Override
-        public CacheMergePolicy create() {
+        public CacheMergePolicy create() { 
             return new PassThroughCacheMergePolicy();
         }
     }),
